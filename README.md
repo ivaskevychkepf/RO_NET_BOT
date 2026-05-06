@@ -56,45 +56,45 @@
         Telegram Bot
         aiogram 3.x (основний фреймворк)
         FSM (Finite State Machine) для сценаріїв
-        🗄 База даних
+        База даних
         SQLAlchemy (async ORM)
         SQLite (за замовчуванням, через aiosqlite)
-        💳 Платежі
+        Платежі
         Monobank Merchant API
         aiohttp (HTTP запити)
-        📡 Додаткові сервіси
+        Додаткові сервіси
         speedtest-cli (перевірка швидкості інтернету)
         qrcode (генерація QR для Wi-Fi)
 
-📌 2. Інструкція встановлення, налаштування та запуску
-    🖥 1. Клонування проєкту
+  2. Інструкція встановлення, налаштування та запуску
+      1. Клонування проєкту
     git clone https://github.com/your-repo/ro-net-bot.git
     cd ro-net-bot
-    📥 2. Встановлення залежностей
+      2. Встановлення залежностей
     pip install -r requirements.txt
     Якщо файлу немає, основні залежності:
     pip install aiogram sqlalchemy aiosqlite aiohttp python-dotenv speedtest-cli qrcode
-    🔐 3. Налаштування .env
+      3. Налаштування .env
     Створити файл .env:
     BOT_TOKEN=your_telegram_bot_token
     MONO_TOKEN=your_monobank_token
     DATABASE_URL=sqlite+aiosqlite:///bot_database.db
-    🗄 4. Ініціалізація бази даних
+      4. Ініціалізація бази даних
     База створюється автоматично при запуску:
     await init_db()
-    ▶️ 5. Запуск бота
+      5. Запуск бота
     python main.py
     Після запуску в консолі:
-    🤖 Бот РО-НЕТ успішно запущений!
-    🚀 6. Функціонал після запуску
+      Бот РО-НЕТ успішно запущений!
+      6. Функціонал після запуску
 
     Після старту користувач отримує меню:
-    🏠 Дашборд мережі
-    ⚡ Speedtest
-    📶 Wi-Fi оптимізація
-    💳 Оплата
-    🧾 Історія платежів
-    📋 Тарифи
-    👤 Профіль
-    🛠 Техпідтримка
-    📦 Пауза інтернету
+    Дашборд мережі
+    Speedtest
+    Wi-Fi оптимізація
+    Оплата
+    Історія платежів
+    Тарифи
+    Профіль
+    Техпідтримка
+    Пауза інтернету
