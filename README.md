@@ -68,7 +68,7 @@
 
   2. Інструкція встановлення, налаштування та запуску
       1. Клонування проєкту
-    git clone https://github.com/your-repo/ro-net-bot.git
+    git clone https://github.com/ivaskevychkepf/RO_NET_BOT.git
     cd ro-net-bot
       2. Встановлення залежностей
     pip install -r requirements.txt
