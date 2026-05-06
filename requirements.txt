@@ -1,8 +1,0 @@
-aiogram==3.13.0
-sqlalchemy==2.0.*
-aiosqlite
-python-dotenv
-loguru
-qrcode[pil]
-Pillow
-httpx
