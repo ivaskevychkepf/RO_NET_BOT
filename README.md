@@ -12,7 +12,7 @@
         переглядати історію платежів
         редагувати профіль
 
-     Структура проєкту
+    Структура проєкту
         project/
         │
         ├── main.py                  # Точка входу (запуск бота)
@@ -48,7 +48,7 @@
         │
         └── .env                    # Змінні середовища
 
-     Використані технології
+    Використані технології
         Backend
         Python 3.10+
         asyncio (асинхронна логіка)
@@ -68,7 +68,7 @@
 
 2. Інструкція встановлення, налаштування та запуску
     1. Клонування проєкту
-    git clone https://github.com/ivaskevychkepf/RO_NET_BOT.git
+    git clone https://github.com/your-repo/ro-net-bot.git
     cd ro-net-bot
     2. Встановлення залежностей
     pip install -r requirements.txt
