@@ -49,11 +49,11 @@
         └── .env                    # Змінні середовища
 
        Використані технології
-        🐍 Backend
+        Backend
         Python 3.10+
         asyncio (асинхронна логіка)
         logging
-        🤖 Telegram Bot
+        Telegram Bot
         aiogram 3.x (основний фреймворк)
         FSM (Finite State Machine) для сценаріїв
         🗄 База даних
